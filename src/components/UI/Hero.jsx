@@ -1,7 +1,7 @@
 
 
 import React from 'react'
-import heroImg from "../../assets/images/hero.svg";
+import heroImg from "../../assets/images/photo.png";
 import CountUp from 'react-countup';
 
 
@@ -32,7 +32,7 @@ const Hero = () => {
                         <button className='bg-primaryColor text-white font-[500] flex items-center gap-2
                         hover:bg-smalltextColor ease-in duration-300 py-2 px-4 rounded-[10px]'><i class="ri-mail-line"></i>Hire me</button>
                      </a>
-                     <a href="https://drive.google.com/file/d/18B_ZpEaTF8Pe4X4_jJF2wJoDzvn8DMmY/view?usp=sharing" className='text-smalltextColor font-[600] border-b border-solid
+                     <a href="https://drive.google.com/file/d/1I2TbHCRY_cDprsWyV9kMcjQ_6AVabv-p/view?usp=sharing" className='text-smalltextColor font-[600] border-b border-solid
                      border-smalltextColor'>See Resume</a>
                 </div>
                 <p data-aos="fade-left"
@@ -41,18 +41,17 @@ const Hero = () => {
                     <span>
                     <i class='ri-apps-2-line'></i>
                     </span>
-                    Actively looking for SDE Roles | Problem Solver | Python |Javascript 
-                    | Node.js | React.js | Cse'24 | Immediate Joiner
+                    A Software Engineer focused on building the frontend and complex backend systems of web apps that leads to the success of the overall product
                 </p>
                 <div className='flex items-center gap-9 mt-14'>
                     <span className='text-smalltextColor text-[15px] font-[600]'>Follow me</span>
-                    <span><a href="#linkedin" className='text-smalltextColor text-[18px] font-[600]'></a>
+                    <span><a href="https://www.linkedin.com/in/ansh-srivastava-25b2751a6/" className='text-smalltextColor text-[18px] font-[600]'></a>
                       <i class="ri-linkedin-fill"></i>
                     </span>
-                    <span><a href="#github" className='text-smalltextColor text-[18px] font-[600]'></a>
+                    <span><a href="https://github.com/ansh-srivastava" className='text-smalltextColor text-[18px] font-[600]'></a>
                       <i class="ri-github-fill"></i>
                     </span>
-                    <span><a href="#instagram" className='text-smalltextColor text-[18px] font-[600]'></a>
+                    <span><a href="https://www.instagram.com/ansh.srivastava__/" className='text-smalltextColor text-[18px] font-[600]'></a>
                       <i class="ri-instagram-fill"></i>
                     </span>
                 </div>    
@@ -72,7 +71,7 @@ const Hero = () => {
                     <h2 className='text-headingColor font-[700] text-[32px]'>
                         <CountUp start={0} end={6} duration={2} suffix='+'/>
                     </h2>
-                    <h4 className='text-headingColor font-[600] text-[18px]'>Years of experience</h4>
+                    <h4 className='text-headingColor font-[600] text-[18px]'>Months of experience</h4>
                 </div>  
                 <div className='mb-10'>
                     <h2 className='text-headingColor font-[700] text-[32px]'>
