@@ -6,6 +6,7 @@ import CountUp from 'react-countup';
 
 
 const Hero = () => {
+
   return (
     <section className='pt-0' id='about'>
       <div className='container pt-14'>
@@ -44,6 +45,19 @@ const Hero = () => {
                     A Software Engineer focused on building the frontend and complex backend systems of web apps that leads to the success of the overall product
                 </p>
                 <div className='flex items-center gap-9 mt-14'>
+                  <span className='text-smalltextColor text-[15px] font-[600]'>Follow me</span>
+                  <button onClick={() => window.open("https://www.linkedin.com/in/ansh-srivastava-25b2751a6/")} className='text-smalltextColor text-[18px] font-[600]'>
+                    <i class="ri-linkedin-fill"></i>
+                  </button>
+                  <button onClick={() => window.open("https://github.com/ansh-srivastava")} className='text-smalltextColor text-[18px] font-[600]'>
+                    <i class="ri-github-fill"></i>
+                  </button>
+                  <button onClick={() => window.open("https://www.instagram.com/ansh.srivastava__/")} className='text-smalltextColor text-[18px] font-[600]'>
+                    <i class="ri-instagram-fill"></i>
+                  </button>
+                </div>
+
+                {/* <div className='flex items-center gap-9 mt-14'>
                     <span className='text-smalltextColor text-[15px] font-[600]'>Follow me</span>
                     <span><a href="https://www.linkedin.com/in/ansh-srivastava-25b2751a6/" className='text-smalltextColor text-[18px] font-[600]'></a>
                       <i class="ri-linkedin-fill"></i>
@@ -54,7 +68,7 @@ const Hero = () => {
                     <span><a href="https://www.instagram.com/ansh.srivastava__/" className='text-smalltextColor text-[18px] font-[600]'></a>
                       <i class="ri-instagram-fill"></i>
                     </span>
-                </div>    
+                </div>     */}
             </div>
             {/*=========== hero left ends =============*/}
             {/*=========== hero img ===========*/}

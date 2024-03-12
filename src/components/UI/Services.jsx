@@ -33,7 +33,7 @@ const Services = () => {
                                     <h3 className='text-primaryColor font-[700] mb-3 group-hover:text-white group-hover:font-[600] 
                                     text-xl'>Frontend Developer</h3>
                                     <p className='text-[15px] text-smalltextColor group-hover:text-white 
-                                    group-hover:font-[500] leading-7'>As I am a front-end developer, I blend creativity and functionality to craft immersive user experiences, 
+                                    group-hover:font-[500] leading-7'>As a front-end developer, I blend creativity and functionality to craft immersive user experiences, 
                                     focusing on responsive design.</p>
                                  </div>
                             </div>
@@ -58,7 +58,7 @@ const Services = () => {
                                     <h3 className='text-primaryColor font-[700] mb-3 group-hover:text-white group-hover:font-[600] 
                                     text-xl'>Backend Developer</h3>
                                     <p className='text-[15px] text-smalltextColor group-hover:text-white 
-                                    group-hover:font-[500] leading-7'>As I am a backend developer, I architect robust systems for efficient web applications, ensuring data integrity and scalability</p>
+                                    group-hover:font-[500] leading-7'>As a backend developer, I architect robust systems for efficient web applications, ensuring data integrity and scalability</p>
                                  </div>
                             </div>
                         </div>
@@ -84,8 +84,8 @@ const Services = () => {
                                     <h3 className='text-primaryColor font-[700] mb-3 group-hover:text-white group-hover:font-[600] 
                                     text-xl'>Artificial Intelligence Developer</h3>
                                     <p className='text-[15px] text-smalltextColor group-hover:text-white 
-                                    group-hover:font-[500] leading-7'>As I am a backend developer, I architect robust systems for efficient web applications, 
-                                    ensuring data integrity and scalability.</p>
+                                    group-hover:font-[500] leading-7'>As an Artificial Intelligence engineer, I design innovative solutions leveraging algorithms and data analysis techniques. 
+                                    My focus lies in developing intelligent systems that optimize processes, enhance decision-making, and drive transformative outcomes.</p>
                                  </div>
                             </div>
                         </div>
@@ -110,7 +110,7 @@ const Services = () => {
                                     <h3 className='text-primaryColor font-[700] mb-3 group-hover:text-white group-hover:font-[600] 
                                     text-xl'>Full Stack Developer</h3>
                                     <p className='text-[15px] text-smalltextColor group-hover:text-white 
-                                    group-hover:font-[500] leading-7'>As I am a full-stack developer, I integrate front-end creativity with back-end functionality, 
+                                    group-hover:font-[500] leading-7'>As a full-stack developer, I integrate front-end creativity with back-end functionality, 
                                     delivering holistic digital solutions for diverse needs.</p>
                                  </div>
                             </div>
