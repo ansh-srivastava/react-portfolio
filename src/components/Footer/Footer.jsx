@@ -4,6 +4,21 @@ import React from 'react'
 const Footer = () => {
 
   const year = new Date().getFullYear()
+  const handleClick = e => {
+    e.preventDefault();
+
+    const targetAttr = e.target.getAttribute("href");
+    const targetElement = document.querySelector(targetAttr);{/* on time 1:44:00 */}
+
+    if (targetElement) {
+      const location = targetElement.offsetTop;
+
+    window.scrollTo({
+      top:location - 80,
+      left:0,
+    });
+   }
+  };
 
   return <footer className='bg-[#12141e] pt-12'>
     {/*============= footer top start =============== */}
@@ -47,16 +62,16 @@ const Footer = () => {
       <div>
         <ul className='flex items-center justify-center gap-10 mt-10'>
          <li>
-            <a className='text-gray-400 font-[600]' href="#about">About</a>
+            <a onClick={handleClick} className='text-gray-400 font-[600]' href="#about">About</a>
          </li>
          <li>
-            <a className='text-gray-400 font-[600]' href="#service">Service</a>
+            <a onClick={handleClick} className='text-gray-400 font-[600]' href="#services">Core-Competance</a>
          </li>
          <li>
-            <a className='text-gray-400 font-[600]' href="#portfolio">Portfolio</a>
+            <a onClick={handleClick} className='text-gray-400 font-[600]' href="#portfolio">Portfolio</a>
          </li>
          <li>
-            <a className='text-gray-400 font-[600]' href="#contact">Contact</a>
+            <a onClick={handleClick} className='text-gray-400 font-[600]' href="#contact">Contact</a>
          </li>
         </ul>
        </div>
