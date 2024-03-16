@@ -95,7 +95,7 @@ const Hero = () => {
                 </div>  
                 <div className='mb-10'>
                     <h2 className='text-headingColor font-[700] text-[32px]'>
-                        <CountUp start={0} end={171} duration={2} suffix='+'/>
+                        <CountUp start={0} end={200} duration={2} suffix='+'/>
                     </h2>
                     <h4 className='text-headingColor font-[600] text-[18px]'>Github contributions</h4>
                 </div>  
