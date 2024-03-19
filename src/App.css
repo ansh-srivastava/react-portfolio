@@ -53,8 +53,8 @@ section{
         height: 40%;
         opacity: 80%;
         position: absolute;
-        top: 20px;
-        right: 60px;
+        top: 80px;
+        right: 10px;
         z-index: 200;
         background: #fff;
         flex-direction: column;
