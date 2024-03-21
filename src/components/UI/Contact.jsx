@@ -7,6 +7,7 @@ const Contact = () => {
     phone: '',
     message: ''
   });
+  const [isSubmitting, setIsSubmitting] = useState(false); // State to track form submission status
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -15,6 +16,7 @@ const Contact = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+    setIsSubmitting(true); // Set isSubmitting to true when form is being submitted
     try {
       const response = await fetch('https://portfolio-backend-4b4c.onrender.com/contact', {
         method: 'POST',
@@ -39,6 +41,8 @@ const Contact = () => {
       }
     } catch (error) {
       console.error(error);
+    } finally {
+      setIsSubmitting(false); // Reset isSubmitting to false after form submission
     }
   };
 
@@ -102,9 +106,12 @@ const Contact = () => {
               </div>
               <button
                 type="submit"
-                className="w-full p-3 focus:outline-none rounded-[5px] bg-smalltextColor text-white hover:bg-headingColor text-center ease-liner duration-150"
+                className={`w-full p-3 focus:outline-none rounded-[5px] bg-smalltextColor text-white hover:bg-headingColor text-center ease-liner duration-150 ${
+                  isSubmitting && 'bg-red-500' // Change button color to red when submitting
+                }`}
+                disabled={isSubmitting} // Disable button when submitting
               >
-                Send Message
+                {isSubmitting ? 'Submitting...' : 'Send Message'}
               </button>
             </form>
           </div>
@@ -115,3 +122,4 @@ const Contact = () => {
 };
 
 export default Contact;
+
