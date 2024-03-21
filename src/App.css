@@ -50,18 +50,18 @@ section{
     }
     .menu ul{
         width: 12rem;
-        height: 40%;
+        height: 100%;
         opacity: 80%;
         position: absolute;
-        top: 80px;
-        right: 10px;
+        top: 0px;
+        right: 50px;
         z-index: 200;
         background: #fff;
         flex-direction: column;
         line-height: 30px;
         justify-content: center;
         align-items: center;
-        border-radius: 20%;
+        border-radius: 0%;
     }
     .show__menu{
         display: block;

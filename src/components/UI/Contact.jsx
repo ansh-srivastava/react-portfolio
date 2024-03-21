@@ -25,7 +25,7 @@ const Contact = () => {
       });
       if (response.ok) {
         // Handle success
-        alert('Form submitted successfully');
+        // alert('Form submitted successfully');
         setFormData({
           name: '',
           email: '',

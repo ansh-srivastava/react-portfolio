@@ -22,7 +22,7 @@ const portfolios = [
     description:
       "A portfolio showcases my skills, projects, and accomplishments, highlighting my expertise and experience to potential clients or employers.",
     technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
-    siteUrl: "https://github.com/ansh-srivastava",
+    siteUrl: "https://github.com/ansh-srivastava/react-portfolio.git",
   },
   {
     id: "02",
