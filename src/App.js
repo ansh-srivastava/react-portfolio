@@ -12,7 +12,25 @@ import Contact from "./components/UI/Contact";
 function App() {
   useEffect(()=>{
     Aos.init();
+
+    const fetchFake = async()=>{
+      try {
+        const response = await fetch('https://portfolio-backend-4b4c.onrender.com/fake', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json'
+          },
+        });
+        console.log(response.text)
+      } catch (error) {
+        console.error(error);
+      }
+    }
+    fetchFake();
   },[]);  
+
+
+
   return (
     <>
       <Header/>

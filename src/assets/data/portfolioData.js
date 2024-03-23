@@ -22,7 +22,7 @@ const portfolios = [
     description:
       "A portfolio showcases my skills, projects, and accomplishments, highlighting my expertise and experience to potential clients or employers.",
     technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
-    siteUrl: "https://github.com/ansh-srivastava/react-portfolio.git",
+    siteUrl: "https://anshsrivastava.in",
   },
   {
     id: "02",
@@ -42,7 +42,7 @@ const portfolios = [
     description:
       "People counting accurately tracks the number of individuals in a given area, aiding businesses in managing foot traffic effectively.",
     technologies: ["Python", "Computer Vision", "Machine Learnings", "Docker"],
-    siteUrl: "https://github.com/ansh-srivastava",
+    siteUrl: "https://github.com/ansh-srivastava/People-Counting.git",
   },
   {
     id: "04",
@@ -52,7 +52,7 @@ const portfolios = [
     description:
       "A weather app provides real-time weather information, forecasts, and updates, helping users stay informed about current and upcoming weather conditions.",
     technologies: ["React", "Tailwind css", "OpenWeatherMap", "Angular"],
-    siteUrl: "https://github.com/ansh-srivastava",
+    siteUrl: "https://github.com/ansh-srivastava/Weather-App.git",
   },
   {
     id: "05",
@@ -62,7 +62,7 @@ const portfolios = [
     description:
       "A one-on-one video call web app enables users to engage in real-time video conversations with one another directly from their web browsers.",
     technologies: ["React", "Angular", "ZegoCloud"],
-    siteUrl: "https://github.com/ansh-srivastava",
+    siteUrl: "https://github.com/ansh-srivastava/Video-Call-Web-App.git",
   },
 
   {
@@ -83,7 +83,7 @@ const portfolios = [
     description:
       "A Library Management System (LMS) is a software solution designed to automate and streamline library operations such as cataloging, circulation, and inventory management.",
     technologies: ["React","Tailwind CSS","Python","MongoDB"],
-    siteUrl: "https://github.com/ansh-srivastava",
+    siteUrl: "https://github.com/ansh-srivastava/Library-management-Ansh.git",
   },
   {
     id: "08",
@@ -129,11 +129,11 @@ const portfolios = [
     id: "12",
     imgUrl: portfolioImg12,
     category: "Web Design",
-    title: "Real Estate Website",
+    title: "Login/Signup Page",
     description:
-      "A real estate website built with React offers users a seamless experience for browsing property listings, viewing images, and accessing detailed information about properties.",
-    technologies: ["React","TailwindCSS","Node.Js","MongoDB"],
-    siteUrl: "https://github.com/ansh-srivastava",
+      "Login/Signup page with authentication system and also a feature to upload an Image inside it as soon as you register over their and login yourself",
+    technologies: ["React.js","Node.js","TailwindCSS","Firebase","MongoDB"],
+    siteUrl: "https://github.com/ansh-srivastava/Login-Singup.git",
   },
 ];
 
