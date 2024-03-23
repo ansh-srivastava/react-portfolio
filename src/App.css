@@ -50,11 +50,11 @@ section{
     }
     .menu ul{
         width: 12rem;
-        height: 60%;
+        height: 40%;
 
         position: absolute;
         top: 70px;
-        right: 0px;
+        right: 10px;
         z-index: 200;
         background: #fff;
         flex-direction: column;
