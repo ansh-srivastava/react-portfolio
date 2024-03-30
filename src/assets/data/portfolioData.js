@@ -73,7 +73,7 @@ const portfolios = [
     description:
       "Sign language recognition translates hand gestures into text or speech, facilitating communication for the deaf and hard of hearing. using AI/ML Libraries",
     technologies: ["Computer Vision", "Machine Learning", "Natural Language Processing", "Neural Networks"],
-    siteUrl: "https://github.com/ansh-srivastava",
+    siteUrl: "https://github.com/ansh-srivastava/Sign-Language-To-Text.git",
   },
   {
     id: "07",
@@ -93,7 +93,7 @@ const portfolios = [
     description:
       "A Netflix clone is a web application that mimics the functionality and user interface of the popular streaming platform Netflix. It allows users to browse, search, and stream a variety of movies and TV shows, just like the original service.",
     technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
-    siteUrl: "https://github.com/ansh-srivastava",
+    siteUrl: "https://github.com/ansh-srivastava/Netflix-clone.git",
   },
   {
     id: "09",
@@ -103,7 +103,7 @@ const portfolios = [
     description:
       "Heart disease classification utilizes data analysis and machine learning to categorize heart conditions based on patient information for accurate diagnoses.",
     technologies: ["Machine Learning", "Data Preprocessing","Feature Extraction","Classifiers"],
-    siteUrl: "https://github.com/ansh-srivastava",
+    siteUrl: "https://github.com/ansh-srivastava/Heart-disease-prediction.git",
   },
   {
     id: "10",
@@ -113,7 +113,7 @@ const portfolios = [
     description:
       "A multi-person face recognition system for attendance monitoring automatically identifies individuals' faces to track attendance, streamlining processes and enhancing security.",
     technologies: ["OpenCV","Dlib","Python","Deep Learninng","DBMS"],
-    siteUrl: "https://github.com/ansh-srivastava",
+    siteUrl: "https://github.com/ansh-srivastava/Multi-Person-Face-Recognition-System.git",
   },
   {
     id: "11",
@@ -123,7 +123,7 @@ const portfolios = [
     description:
       "Road lane line detection using AI/ML utilizes algorithms to identify and track lane markings, crucial for autonomous driving and road safety.",
     technologies: ["Python","Tensorflow","CNNs","Computer Vision"],
-    siteUrl: "https://github.com/ansh-srivastava",
+    siteUrl: "https://github.com/ansh-srivastava/Road_Lane_Detection.git",
   },
   {
     id: "12",
