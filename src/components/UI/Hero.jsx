@@ -33,7 +33,7 @@ const Hero = () => {
                         <button className='bg-primaryColor text-white font-[500] flex items-center gap-2
                         hover:bg-smalltextColor ease-in duration-300 py-2 px-4 rounded-[10px]'><i class="ri-mail-line"></i>Hire me</button>
                      </a>
-                     <a href="https://drive.google.com/file/d/1I2TbHCRY_cDprsWyV9kMcjQ_6AVabv-p/view?usp=sharing" className='text-smalltextColor font-[600] border-b border-solid
+                     <a href="https://drive.google.com/file/d/1ISePRlU_4Gk5Oc49OoR2BeBBslDgxYn2/view?usp=sharing" className='text-smalltextColor font-[600] border-b border-solid
                      border-smalltextColor'>See Resume</a>
                 </div>
                 <p data-aos="fade-left"
