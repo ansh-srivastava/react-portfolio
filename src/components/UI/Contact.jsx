@@ -1,11 +1,11 @@
-import React, { useState } from 'react';
+import React, { useState } from "react";
 
 const Contact = () => {
   const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    phone: '',
-    message: ''
+    name: "",
+    email: "",
+    phone: "",
+    message: "",
   });
   const [isSubmitting, setIsSubmitting] = useState(false); // State to track form submission status
 
@@ -18,26 +18,29 @@ const Contact = () => {
     e.preventDefault();
     setIsSubmitting(true); // Set isSubmitting to true when form is being submitted
     try {
-      const response = await fetch('https://portfolio-backend-4b4c.onrender.com/contact', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json'
-        },
-        body: JSON.stringify(formData)
-      });
+      const response = await fetch(
+        "https://portfolio-backend-4b4c.onrender.com/contact",
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify(formData),
+        }
+      );
       if (response.ok) {
         // Handle success
         // alert('Form submitted successfully');
         setFormData({
-          name: '',
-          email: '',
-          phone: '',
-          message: ''
+          name: "",
+          email: "",
+          phone: "",
+          message: "",
         });
         window.location.reload(); // Refresh the page
       } else {
         // Handle error
-        console.error('Form submission failed');
+        console.error("Form submission failed");
       }
     } catch (error) {
       console.error(error);
@@ -49,7 +52,9 @@ const Contact = () => {
   return (
     <section id="contact" className="pb-16">
       <div className="container">
-        <h2 className="text-headingColor font-[700] text-[2.5rem] mb-8">Get in touch</h2>
+        <h2 className="text-headingColor font-[700] text-[2.5rem] mb-8">
+          Get in touch
+        </h2>
         <div className="md:flex justify-between items-center">
           <div className="w-full md:w-1/2 h-[300px] sm:h-[450px]">
             <iframe
@@ -107,11 +112,11 @@ const Contact = () => {
               <button
                 type="submit"
                 className={`w-full p-3 focus:outline-none rounded-[5px] bg-smalltextColor text-white hover:bg-headingColor text-center ease-liner duration-150 ${
-                  isSubmitting && 'bg-red-500' // Change button color to red when submitting
+                  isSubmitting && "bg-red-500" // Change button color to red when submitting
                 }`}
                 disabled={isSubmitting} // Disable button when submitting
               >
-                {isSubmitting ? 'Submitting...' : 'Send Message'}
+                {isSubmitting ? "Submitting..." : "Send Message"}
               </button>
             </form>
           </div>
@@ -122,4 +127,3 @@ const Contact = () => {
 };
 
 export default Contact;
-
